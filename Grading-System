@@ -1,0 +1,27 @@
+const ps = require('prompt-sync')();
+
+let highVoltage = +ps('Enter your highVoltage marks...');
+
+let powerElectronics = +ps('Enter your powerElectronics marks...');
+
+let powerSystemAnalysis = +ps('Enter your powerSystemAnalysis marks...');
+
+function  gradeSystem(highVoltage:number, powerElectronics:number, powerSystemAnalysis:number ){
+    return highVoltage+powerElectronics+powerSystemAnalysis;
+}
+let res = gradeSystem(highVoltage, powerElectronics, powerSystemAnalysis);
+if (res >= 250 && res <= 300){
+    console.log("Your grade is A")
+}
+else if  (res >= 200 && res <= 249){
+    console.log("Your grade is B")
+}
+else if  (res >= 150 && res <= 199){
+    console.log("Your grade is C")
+}
+else if  (res <= 149){
+    console.log("Congratulations, you have failed your semester")
+}
+else{
+    console.log("Invalid Marks")
+}

@@ -1,0 +1,4 @@
+let guestList = ["Wasil","Hassan","Hamas"];
+for (let element of guestList){
+    console.log(`Hey ${element}, I would like to invite you on dinner at my house.`)
+} 

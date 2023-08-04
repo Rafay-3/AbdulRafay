@@ -1,0 +1,4 @@
+let personName = "\tAbdul Rafay\n";
+console.log(`Name with whitspaces is ${personName}`);
+let personNameWithoutWhiteSpaces = personName.replace(/\s/g, "");
+console.log(`Name without whitespaces ${personNameWithoutWhiteSpaces}`);

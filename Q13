@@ -1,0 +1,4 @@
+let favTransportation = ["Bike","Car","bicycle"];
+for (let element of favTransportation){
+    console.log(`I would like to own a stylish ${element}.`)
+} 

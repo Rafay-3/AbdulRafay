@@ -1,0 +1,6 @@
+let names = ["Wasil","Hassan","Usama","Hamas"];
+console.log("These are my friends:");
+console.log(`Hello ${names[0]},"have you done your assignment?`);
+console.log(`Hello ${names[1]},"have you done your assignment?`);
+console.log(`Hello ${names[2]},"have you done your assignment?`);
+console.log(`Hello ${names[3]},"have you done your assignment?`);

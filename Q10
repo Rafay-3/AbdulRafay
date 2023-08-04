@@ -1,0 +1,37 @@
+//Assigment Q10//
+// Abdul Rafay Tahir//
+const ps = require('prompt-sync')();
+
+let highVoltage = +ps('Enter your highVoltage marks...');
+
+let powerElectronics = +ps('Enter your powerElectronics marks...');
+
+let powerSystemAnalysis = +ps('Enter your powerSystemAnalysis marks...');
+
+function  gradeSystem(highVoltage:number, powerElectronics:number, powerSystemAnalysis:number ){
+    return highVoltage+powerElectronics+powerSystemAnalysis;
+}
+let res = gradeSystem(highVoltage, powerElectronics, powerSystemAnalysis);
+if (res >= 250 && res <= 300){
+    console.log("Your grade is A")
+}
+else if  (res >= 200 && res <= 249){
+    console.log("Your grade is B")
+}
+else if  (res >= 150 && res <= 199){
+    console.log("Your grade is C")
+}
+else if  (res <= 149){
+    console.log("Congratulations, you have failed your semester")
+}
+else{
+    console.log("Invalid Marks")
+}
+
+/*
+It imports the prompt-sync library to take input from the user.
+It prompts the user to input marks for three subjects: highVoltage, powerElectronics, and powerSystemAnalysis.
+It defines a function gradeSystem that takes three number parameters representing marks and returns their sum.
+It calculates the total marks by calling the gradeSystem function with the provided marks.
+It uses conditional statements to determine the grade based on the total marks
+*/

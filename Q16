@@ -1,0 +1,14 @@
+let guestList = ["Wasil","Hassan","Hamas"];
+for (let element of guestList){
+    console.log(`Hey ${element}, I would like to invite you on dinner at my house.`)
+} 
+console.log("Wasil can't make it to the dinner.");
+let removedGuest = guestList.shift();
+let addedGuest = guestList.unshift("Usama");
+console.log("I've found a bigger dinner table, let's invite some more friends.")
+guestList.unshift("Shah G ")
+guestList.splice(2,0,"kami")
+guestList.push("tahir")
+for (let element of guestList){
+    console.log(`Hey ${element}, I would like to invite you on dinner at my house.`)
+} 

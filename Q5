@@ -1,0 +1,6 @@
+// Assignment 3 Q-5//
+// Qoute2//
+
+let famous_Person = "Quaid e Azam";
+let message = `"Think a hundred times before you take a decision, but once that decision is taken, stand by it as one man."`;
+console.log(`${famous_Person} once said, ${message}`);

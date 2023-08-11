@@ -1,0 +1,11 @@
+// Assignment 3 Q-3//
+// Name Cases//
+
+let personName = 'Abdul Rafay ';
+let lowerCase = 'abdul rafay ';
+let upperCase = 'ABDUL RAFAY ';
+let titleCase = ' Abdul Rafay ';
+console.log(`Name of the person is ${personName}. `);
+console.log(`Name of the person in uppercase is ${upperCase}. `);
+console.log(`Name of the person in lowercaseis ${lowerCase}. `);
+console.log(`Name of the person in titlecase is ${titleCase}. `);

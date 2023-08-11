@@ -1,0 +1,6 @@
+// Assignment 3 Q-2//
+// Personal message//
+
+let personName = 'AbdulRafay';
+let personalMessage = `Hi ${personName}, let's begin with typescript. `
+console.log(personalMessage);
